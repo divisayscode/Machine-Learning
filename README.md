@@ -1,109 +1,64 @@
-📘 Machine Learning Assignments – NumPy & Adventure Works Dataset
-📌 Overview
+# 📘 Machine Learning Assignments – NumPy & Adventure Works Dataset
 
-This repository contains solutions to my Machine Learning coursework assignments.
-It covers two main parts:
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)  
+![Libraries](https://img.shields.io/badge/Libraries-NumPy%20%7C%20Pandas%20%7C%20ScikitLearn-green)  
 
-Assignment 1 – NumPy Fundamentals
+## 📌 Overview
+This repository contains solutions to my **Machine Learning coursework assignments**.  
+It covers two main parts:  
 
-Practice with NumPy arrays, matrices, statistics, linear algebra, and basic image handling.
+- **Assignment 1:** NumPy Fundamentals (arrays, matrices, statistics, linear algebra, image-to-array).  
+- **Assignment 2:** Data preprocessing and similarity analysis on the **Adventure Works Customer Dataset**.  
 
-Assignment 2 – Adventure Works Customer Data
+---
 
-Data preprocessing, transformation, and similarity analysis for predicting potential bike buyers.
+## 📝 Assignment 1: NumPy Basics
+### 🔹 Topics Covered
+- Array manipulations (reverse, flatten, compare).  
+- Frequency analysis & index extraction.  
+- Matrix operations: sum (total, row-wise, column-wise).  
+- Linear algebra: diagonal sum, eigenvalues, eigenvectors, inverse, determinant.  
+- Matrix multiplication & covariance.  
+- Inner, outer, and Cartesian products.  
+- Math & statistics: absolute, percentiles, mean, median, std. deviation.  
+- Floor, ceiling, truncation, rounding.  
+- Searching & sorting: smallest/largest elements, sorted indices.  
+- Filtering integers vs floats.  
+- Image-to-array conversion (RGB & Grayscale).  
 
-📝 Assignment 1: NumPy Basics
-Topics Covered
+---
 
-Array manipulation (reverse, flatten, compare arrays).
+## 📝 Assignment 2: Adventure Works Customer Data
+### 📂 Dataset
+- Source: [Kaggle – Adventure Works Cycles Customer Data](https://www.kaggle.com/datasets/jahias/microsoft-adventure-works-cycles-customer-data)  
+- Size: ~18,000 rows  
+- Contains demographics and attributes of past and potential bike customers.  
 
-Frequency analysis and index extraction.
+### 🔹 Tasks
+#### Part I: Feature Selection
+- Chose relevant attributes influencing bike purchases.  
+- Classified features as Nominal, Ordinal, Interval, or Ratio.  
+- Created a new DataFrame with selected attributes.  
 
-Matrix operations: sum, row-wise/column-wise aggregation.
+#### Part II: Data Preprocessing & Transformation
+- Handling missing values.  
+- Normalization & Standardization.  
+- Discretization (binning) of continuous features.  
+- One-Hot Encoding for categorical attributes.  
 
-Linear algebra: diagonal sum, eigenvalues, eigenvectors, inverse, determinant.
+#### Part III: Proximity & Correlation Analysis
+- Applied similarity measures:  
+  - ✅ Simple Matching  
+  - ✅ Jaccard Similarity  
+  - ✅ Cosine Similarity  
+- Correlation analysis between **Commute Distance** and **Yearly Income**.  
 
-Matrix multiplication and covariance.
+---
 
-Vector operations: inner, outer, Cartesian products.
+## ⚙️ Tools & Libraries
+- [Python](https://www.python.org/)  
+- [NumPy](https://numpy.org/)  
+- [Pandas](https://pandas.pydata.org/)  
+- [Scikit-learn](https://scikit-learn.org/)  
 
-Mathematical and statistical functions: absolute, percentiles, mean, median, standard deviation.
-
-Floor, ceiling, truncation, rounding.
-
-Searching and sorting: smallest/largest elements, sorted indices.
-
-Filtering integer vs float elements.
-
-Image-to-array conversion (RGB & Grayscale).
-
-📝 Assignment 2: Adventure Works Customer Data
-Dataset
-
-Source: Kaggle – Adventure Works Cycles Customer Data
-
-~18,000 rows of customer demographic and purchase-related attributes.
-
-Tasks
-
-Part I: Feature Selection
-
-Selected attributes affecting bike purchases.
-
-Classified attributes (Nominal, Ordinal, Interval, Ratio).
-
-Created new DataFrame with relevant features.
-
-Part II: Data Preprocessing & Transformation
-
-Handling missing values.
-
-Normalization & Standardization.
-
-Discretization (binning) of continuous features.
-
-One-Hot Encoding for categorical attributes.
-
-Part III: Proximity & Correlation Analysis
-
-Similarity measures:
-
-Simple Matching
-
-Jaccard Similarity
-
-Cosine Similarity
-
-Correlation between Commute Distance and Yearly Income.
-
-⚙️ Tools & Libraries
-
-Python
-
-NumPy
-
-Pandas
-
-Scikit-learn
-
-▶️ How to Run
-
-Clone this repo.
-
-For Assignment 1, run the provided Jupyter notebooks to practice NumPy operations.
-
-For Assignment 2:
-
-Download the dataset from Kaggle.
-
-Place it in the project folder.
-
-Run the notebook/script for preprocessing and similarity analysis.
-
-✨ Results
-
-Strengthened understanding of NumPy operations (arrays, matrices, stats, linear algebra).
-
-Built a preprocessed customer dataset for ML modeling.
-
-Calculated similarity and correlation metrics for customer attributes.
+---
