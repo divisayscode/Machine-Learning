@@ -1,9 +1,9 @@
-# 📘 Machine Learning Assignments – NumPy & Adventure Works Dataset
+#  Machine Learning Assignments – NumPy & Adventure Works Dataset
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)  
 ![Libraries](https://img.shields.io/badge/Libraries-NumPy%20%7C%20Pandas%20%7C%20ScikitLearn-green)  
 
-## 📌 Overview
+##  Overview
 This repository contains solutions to my **Machine Learning coursework assignments**.  
 It covers two main parts:  
 
@@ -29,7 +29,7 @@ It covers two main parts:
 ---
 
 ## 📝 Assignment 2: Adventure Works Customer Data
-### 📂 Dataset
+###  Dataset
 - Source: [Kaggle – Adventure Works Cycles Customer Data](https://www.kaggle.com/datasets/jahias/microsoft-adventure-works-cycles-customer-data)  
 - Size: ~18,000 rows  
 - Contains demographics and attributes of past and potential bike customers.  
@@ -48,14 +48,14 @@ It covers two main parts:
 
 #### Part III: Proximity & Correlation Analysis
 - Applied similarity measures:  
-  - ✅ Simple Matching  
-  - ✅ Jaccard Similarity  
-  - ✅ Cosine Similarity  
+  -  Simple Matching  
+  -  Jaccard Similarity  
+  -  Cosine Similarity  
 - Correlation analysis between **Commute Distance** and **Yearly Income**.  
 
 ---
 
-## ⚙️ Tools & Libraries
+##  Tools & Libraries
 - [Python](https://www.python.org/)  
 - [NumPy](https://numpy.org/)  
 - [Pandas](https://pandas.pydata.org/)  
